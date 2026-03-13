@@ -19,7 +19,7 @@ export const Features = () => {
     {
       title: "Soporte Constante",
       description:
-        "Acompañamiento local permanente. Equipo en Medellín disponible para mantenimiento y asistencia continua. Tu página nunca se detiene.",
+        "Acompañamiento permanente. Equipo en Colombia disponible para mantenimiento y asistencia continua. Tu página nunca se detiene.",
       icon: <HeadphonesIcon size={24} className="text-sky-400" />,
     },
     {

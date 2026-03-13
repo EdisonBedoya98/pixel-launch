@@ -19,7 +19,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-slate-400 mb-6 max-w-sm">
-              Creamos páginas web en Medellín que venden, posicionan y hacen
+              Creamos páginas web en Colombia que venden, posicionan y hacen
               crecer tu negocio con estándares internacionales.
             </p>
             <div className="flex gap-4">
@@ -95,7 +95,7 @@ export const Footer = () => {
                   hola@pixellaunch.com
                 </a>
               </li>
-              <li className="text-slate-400">📍 Medellín, Colombia</li>
+              <li className="text-slate-400">📍 Colombia</li>
             </ul>
           </div>
         </div>

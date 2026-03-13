@@ -24,7 +24,7 @@ export const Hero = () => {
         >
           <Sparkles size={16} className="text-sky-400" />
           <span className="text-sm font-medium text-slate-200">
-            Diseño Web Premium en Medellín
+            Diseño Web Premium en Colombia
           </span>
         </motion.div>
 
