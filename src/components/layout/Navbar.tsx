@@ -32,14 +32,17 @@ export const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 cursor-pointer">
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="flex items-center gap-2 cursor-pointer border-none bg-transparent p-0"
+          >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-violet-600 flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
               <Rocket size={24} />
             </div>
             <span className="font-display font-bold text-2xl tracking-tight text-white">
               Pixel Launch
             </span>
-          </div>
+          </button>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
