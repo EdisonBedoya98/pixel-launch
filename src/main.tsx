@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
 // Componentes y Páginas
+import "./i18n";
 import { GeoRouter } from "./components/GeoRouter.tsx";
-import ColombiaLanding from "./pages/ColombiaLanding.tsx";
-import { USALanding } from "./pages/USALanding.tsx";
+import Landing from "./pages/Landing.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -16,8 +16,8 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<GeoRouter />} />
 
         {/* Rutas finales para cada idioma/país */}
-        <Route path="/es" element={<ColombiaLanding />} />
-        <Route path="/en" element={<USALanding />} />
+        <Route path="/es" element={<Landing lang="es" />} />
+        <Route path="/en" element={<Landing lang="en" />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

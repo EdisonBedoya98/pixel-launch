@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { Button } from "../ui/Button";
 import { Calendar, MessageSquare, Clock } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const ContactCTA = () => {
+  const { t } = useTranslation();
   return (
     <section id="contact" className="py-24 relative z-10">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,17 +21,18 @@ export const ContactCTA = () => {
 
           <div className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              ¿Listo para tu nueva{" "}
-              <span className="text-gradient">página web</span>?
+              {t("contact.titleMain")}{" "}
+              <span className="text-gradient">
+                {t("contact.titleGradient")}
+              </span>
             </h2>
             <p className="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-              Conversemos sobre tu proyecto. Te invitamos a una asesoría
-              gratuita donde conoceremos tu idea y te guiaremos paso a paso.
+              {t("contact.description")}
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
               <a
-                href="https://wa.me/573148793121?text=Hola%20Pixel%20Launch,%20quisiera%20agendar%20una%20reuni%C3%B3n"
+                href={`https://wa.me/573148793121?text=${encodeURIComponent(t("contact.whatsappText"))}`}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -38,7 +41,7 @@ export const ContactCTA = () => {
                   icon={<Calendar size={20} />}
                   className="w-full sm:w-auto"
                 >
-                  Agendar Llamada Gratis
+                  {t("contact.primaryCTA")}
                 </Button>
               </a>
               <a href="mailto:hola@pixellaunch.com">
@@ -48,7 +51,7 @@ export const ContactCTA = () => {
                   icon={<MessageSquare size={20} />}
                   className="w-full sm:w-auto"
                 >
-                  Enviar Correo
+                  {t("contact.secondaryCTA")}
                 </Button>
               </a>
             </div>
@@ -56,11 +59,11 @@ export const ContactCTA = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-400 border-t border-white/10 pt-8 mt-8">
               <div className="flex items-center justify-center gap-2">
                 <Clock size={16} className="text-sky-400" />
-                <span>Respuesta en {"<"} 24 horas</span>
+                <span>{t("contact.perk1")}</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <MessageSquare size={16} className="text-sky-400" />
-                <span>Asesoría 100% gratuita</span>
+                <span>{t("contact.perk2")}</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <svg
@@ -76,7 +79,7 @@ export const ContactCTA = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Sin compromisos</span>
+                <span>{t("contact.perk3")}</span>
               </div>
             </div>
           </div>

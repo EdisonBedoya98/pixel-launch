@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { Menu, X, Rocket } from "lucide-react";
 import { Button } from "../ui/Button";
 
 export const Navbar = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -16,10 +18,10 @@ export const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Beneficios", href: "#features" },
-    { name: "Planes", href: "#pricing" },
-    { name: "Servicios", href: "#services" },
-    { name: "Testimonios", href: "#testimonials" },
+    { name: t("nav.features"), href: "#features" },
+    { name: t("nav.pricing"), href: "#pricing" },
+    { name: t("nav.services"), href: "#services" },
+    { name: t("nav.testimonials"), href: "#testimonials" },
   ];
 
   return (
@@ -56,7 +58,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a href="#contact">
-              <Button size="sm">Cotizar Ahora</Button>
+              <Button size="sm">{t("nav.cta")}</Button>
             </a>
           </nav>
 
@@ -89,7 +91,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button className="w-full">Cotizar Ahora</Button>
+              <Button className="w-full">{t("nav.cta")}</Button>
             </a>
           </div>
         </motion.div>

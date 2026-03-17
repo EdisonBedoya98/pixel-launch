@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Navbar } from "../components/layout/Navbar";
 import { Footer } from "../components/layout/Footer";
 import { Hero } from "../components/sections/Hero";
@@ -7,7 +9,13 @@ import { Services } from "../components/sections/Services";
 import { Testimonials } from "../components/sections/Testimonials";
 import { ContactCTA } from "../components/sections/ContactCTA";
 
-export default function ColombiaLanding() {
+export default function Landing({ lang }: { lang: "en" | "es" }) {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(lang);
+  }, [lang, i18n]);
+
   return (
     <div className="min-h-screen bg-slate-950 font-sans selection:bg-sky-500/30">
       <Navbar />

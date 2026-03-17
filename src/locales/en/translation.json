@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "features": "Benefits",
+    "pricing": "Pricing",
+    "services": "Services",
+    "testimonials": "Reviews",
+    "cta": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Premium Web Design in the US",
+    "titleMain": "We build websites that ",
+    "titleGradient": "sell and rank",
+    "description": "We design custom digital solutions to scale your business. Fast, secure, and optimized for Google from day one.",
+    "primaryCTA": "Get a Free Consultation",
+    "secondaryCTA": "See Benefits",
+    "proofCompanies": "50+ Trusted Businesses",
+    "proofSupport": "24/7 Support"
+  },
+  "features": {
+    "titleMain": "Reasons to ",
+    "titleGradient": "choose us",
+    "description": "We focus on delivering projects with the highest technical and design quality, ensuring your investment generates real returns.",
+    "items": [
+      {
+        "title": "Peak Performance",
+        "description": "Fast and secure websites. Optimized sites that load in under 3 seconds, perfectly adapted for mobile, tablets, and desktops."
+      },
+      {
+        "title": "Constant Support",
+        "description": "Ongoing assistance. Dedicated team available for maintenance and continuous support. Your website never stops."
+      },
+      {
+        "title": "Fair Pricing",
+        "description": "Transparent plans in USD. No fine print or hidden fees. Extremely competitive prices tailored for the US market."
+      },
+      {
+        "title": "Strategic Design",
+        "description": "Websites that sell and rank. We don't just build pretty pages; we craft digital strategies that generate real results."
+      },
+      {
+        "title": "Close Communication",
+        "description": "Direct and personalized attention. We guide you through the whole process via virtual meetings. International standards."
+      },
+      {
+        "title": "Built-in SEO",
+        "description": "Optimized for Google from Day 1. All our websites include solid SEO architecture so your customers find you easily."
+      }
+    ]
+  },
+  "pricing": {
+    "titleMain": "Transparent ",
+    "titleGradient": "Plans",
+    "description": "Pricing in USD with no hidden fees or fine print. Find the perfect plan for your business's current stage.",
+    "badgePopular": "Most Popular",
+    "currency": "USD",
+    "ctaPrimary": "Request Plan",
+    "whatsappText": "Hi Pixel Launch, I'm interested in the plan",
+    "plans": [
+      {
+        "name": "Web Start",
+        "description": "Ideal for entrepreneurs and small businesses seeking a professional digital presence.",
+        "price": "$ 499",
+        "oldPrice": "$ 699 USD",
+        "popular": false,
+        "features": [
+          "Up to 5 unique pages",
+          "2 design revisions",
+          ".com Domain & hosting for 1 year",
+          "SSL Certificate (HTTPS)",
+          "100% responsive design",
+          "Personalized training",
+          "WhatsApp integration",
+          "Basic SEO optimization",
+          "Delivery in 7 business days",
+          "30 days free technical support"
+        ]
+      },
+      {
+        "name": "Web Grow",
+        "description": "Designed for growing businesses that need to stand out and sell online powerfully.",
+        "price": "$ 899",
+        "oldPrice": "$ 1,199 USD",
+        "popular": true,
+        "features": [
+          "Everything in Web Start, plus:",
+          "Up to 7 additional pages",
+          "3 design revisions",
+          "Basic online store (e-commerce)",
+          "Online payment gateway",
+          "Advanced SEO optimization",
+          "Testimonials module",
+          "Optimized speed (< 3s)",
+          "Delivery in 10 business days",
+          "60 days free technical support"
+        ]
+      },
+      {
+        "name": "Web Scale",
+        "description": "Complete corporate solution for market leaders demanding the best.",
+        "price": "$ 1,499",
+        "oldPrice": "$ 1,999 USD",
+        "popular": false,
+        "features": [
+          "Everything in Web Grow, plus:",
+          "Unlimited revisions",
+          "Full SEO (on-page and technical)",
+          "Appointments & booking system",
+          "Professional business emails",
+          "Advanced security",
+          "100% custom design",
+          "Content migration",
+          "Delivery in 20 business days",
+          "90 days free technical support"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "badge": "Complementary Services",
+    "titleMain": "Take your website to the ",
+    "titleGradient": "next level",
+    "description": "Take advantage of our special discounts when purchasing a web plan and get a 360° digital solution.",
+    "items": [
+      {
+        "title": "Logo Design",
+        "description": "Professional visual identity for your brand. A logo that aligns with your company's identity.",
+        "pricing": "From: $ 150 USD with a web plan",
+        "oldPricing": "Regular: $ 250 USD"
+      },
+      {
+        "title": "Web Copy & SEO",
+        "description": "Optimized content for Google. Professional and strategic copywriting to attract customers from search engines.",
+        "pricing": "FREE with Grow or Scale Plan",
+        "oldPricing": "From: $ 100 USD"
+      },
+      {
+        "title": "Premium Web Hosting",
+        "description": "Hosting on servers with 99% Uptime. Fast, secure, and stable hosting.",
+        "pricing": "FREE the first year with any plan",
+        "oldPricing": "From: $ 80 USD/yr"
+      },
+      {
+        "title": "Social Media Management",
+        "description": "Boost your digital presence. Optimized profiles and visual content that connects with your audience.",
+        "pricing": "Special discount for web clients",
+        "oldPricing": "From: $ 150 USD/Month"
+      }
+    ]
+  },
+  "testimonials": {
+    "titleMain": "What our ",
+    "titleGradient": "clients say",
+    "description": "Based on excellent reviews from those who have trusted our work to boost their businesses.",
+    "items": [
+      {
+        "name": "Joshua De Abreu",
+        "role": "Web Trading Client",
+        "content": "A sincerely exceeded my expectations. From the design to the structure, everything is well thought out. The site is fast, professional, and highly intuitive. They answered my questions incredibly fast.",
+        "rating": 5
+      },
+      {
+        "name": "Angela Correa",
+        "role": "Interior Design Studio",
+        "content": "Excellent service!!! The consultation is very efficient, and they are incredibly punctual with delivery times!!! They have deep knowledge about web design. I recommend them 100%.",
+        "rating": 5
+      },
+      {
+        "name": "Andrey Grass",
+        "role": "Corporate Client",
+        "content": "Antonio is excellent, highly professional, and his work is impeccable. I hired him without knowing him personally over the internet, and he turned out to be much better than everyone I knew 🙏🏼. Recommended 1000%.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "titleMain": "Ready for your new ",
+    "titleGradient": "website?",
+    "description": "Let's talk about your project. We invite you to a free consultation where we'll learn about your idea and guide you step by step.",
+    "primaryCTA": "Schedule Free Call",
+    "secondaryCTA": "Send Email",
+    "whatsappText": "Hi Pixel Launch, I'd like to schedule a meeting.",
+    "perk1": "Response in < 24 hours",
+    "perk2": "100% free consultation",
+    "perk3": "No commitments"
+  },
+  "footer": {
+    "description": "We create high-performing websites optimized for sales and growth with top international quality standards.",
+    "servicesTitle": "Services",
+    "servicesItems": [
+      "Custom Web Design",
+      "Online Stores",
+      "SEO Optimization",
+      "Visual Identity"
+    ],
+    "contactTitle": "Contact",
+    "location": "📍 USA & Global",
+    "copyright": "© {{year}} Pixel Launch. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}

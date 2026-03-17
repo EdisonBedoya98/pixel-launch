@@ -1,30 +1,17 @@
 import { Card } from "../ui/Card";
 import { Star, Quote } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Testimonials = () => {
-  const testimonials = [
-    {
-      name: "Joshua De Abreu",
-      role: "Cliente Web Trading",
-      content:
-        "Sinceramente superó mis expectativas. Desde el diseño hasta la estructura, todo está pensado. La página es rápida, profesional y muy intuitiva. Respondieron mis dudas rápidamente.",
-      rating: 5,
-    },
-    {
-      name: "Angela Correa",
-      role: "Decortinas e interiores",
-      content:
-        "Excelente servicio!!! El asesoramiento es muy eficiente, son muy cumplidos y correctos con los tiempos de entrega!!! Tienen mucho conocimiento sobre diseño web. Los recomiendo 100%.",
-      rating: 5,
-    },
-    {
-      name: "Andrey Grass",
-      role: "Cliente Corporativo",
-      content:
-        "Antonio es excelente, muy profesional y su trabajo es impecable. Lo contraté sin conocerlo por internet y salió mucho mejor que todos los que conocía 🙏🏼. Recomendado al 1000%.",
-      rating: 5,
-    },
-  ];
+  const { t } = useTranslation();
+  const testimonialsData = t("testimonials.items", {
+    returnObjects: true,
+  }) as Array<{
+    name: string;
+    role: string;
+    content: string;
+    rating: number;
+  }>;
 
   return (
     <section id="testimonials" className="py-24 relative z-10 bg-slate-900/30">
@@ -38,17 +25,18 @@ export const Testimonials = () => {
             </div>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Lo que dicen{" "}
-            <span className="text-gradient">nuestros clientes</span>
+            {t("testimonials.titleMain")}{" "}
+            <span className="text-gradient">
+              {t("testimonials.titleGradient")}
+            </span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Basado en las excelentes reseñas de quienes ya han confiado en
-            nuestro trabajo para impulsar sus negocios.
+            {t("testimonials.description")}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, idx) => (
+          {testimonialsData.map((testimonial, idx) => (
             <Card key={idx} className="relative pt-10">
               <div className="absolute top-6 right-6 opacity-10">
                 <Quote size={48} />

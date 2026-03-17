@@ -1,6 +1,11 @@
 import { Rocket, Instagram, Twitter, Linkedin, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+  const servicesItems = t("footer.servicesItems", {
+    returnObjects: true,
+  }) as string[];
   return (
     <footer className="bg-slate-950 border-t border-white/10 pt-16 pb-8 relative overflow-hidden">
       {/* Background Glow */}
@@ -19,8 +24,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-slate-400 mb-6 max-w-sm">
-              Creamos páginas web en Colombia que venden, posicionan y hacen
-              crecer tu negocio con estándares internacionales.
+              {t("footer.description")}
             </p>
             <div className="flex gap-4">
               <a
@@ -46,45 +50,27 @@ export const Footer = () => {
 
           {/* Links */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Servicios</h4>
+            <h4 className="text-white font-semibold mb-4">
+              {t("footer.servicesTitle")}
+            </h4>
             <ul className="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  className="text-slate-400 hover:text-sky-400 transition-colors"
-                >
-                  Diseño Web a Medida
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-slate-400 hover:text-sky-400 transition-colors"
-                >
-                  Tiendas Online
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-slate-400 hover:text-sky-400 transition-colors"
-                >
-                  Optimización SEO
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-slate-400 hover:text-sky-400 transition-colors"
-                >
-                  Identidad Visual
-                </a>
-              </li>
+              {servicesItems.map((item, idx) => (
+                <li key={idx}>
+                  <a
+                    href="#"
+                    className="text-slate-400 hover:text-sky-400 transition-colors"
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-semibold mb-4">Contacto</h4>
+            <h4 className="text-white font-semibold mb-4">
+              {t("footer.contactTitle")}
+            </h4>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-slate-400">
                 <Mail size={16} />
@@ -95,22 +81,21 @@ export const Footer = () => {
                   hola@pixellaunch.com
                 </a>
               </li>
-              <li className="text-slate-400">📍 Colombia</li>
+              <li className="text-slate-400">{t("footer.location")}</li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Pixel Launch. Todos los derechos
-            reservados.
+            {t("footer.copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex gap-6 text-sm text-slate-500">
             <a href="#" className="hover:text-slate-300 transition-colors">
-              Políticas de Privacidad
+              {t("footer.privacy")}
             </a>
             <a href="#" className="hover:text-slate-300 transition-colors">
-              Términos y Condiciones
+              {t("footer.terms")}
             </a>
           </div>
         </div>

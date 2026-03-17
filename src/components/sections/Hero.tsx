@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { ArrowRight, Sparkles, CheckCircle2 } from "lucide-react";
 import { Button } from "../ui/Button";
 
 export const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Effects */}
@@ -24,7 +26,7 @@ export const Hero = () => {
         >
           <Sparkles size={16} className="text-sky-400" />
           <span className="text-sm font-medium text-slate-200">
-            Diseño Web Premium en Colombia
+            {t("hero.badge")}
           </span>
         </motion.div>
 
@@ -34,8 +36,8 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl"
         >
-          Creamos páginas web que{" "}
-          <span className="text-gradient">venden y posicionan</span>
+          {t("hero.titleMain")}{" "}
+          <span className="text-gradient">{t("hero.titleGradient")}</span>
         </motion.h1>
 
         <motion.p
@@ -44,8 +46,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed"
         >
-          Diseñamos soluciones digitales a medida para hacer crecer tu negocio.
-          Rápidas, seguras y optimizadas para Google desde el día 1.
+          {t("hero.description")}
         </motion.p>
 
         <motion.div
@@ -56,12 +57,12 @@ export const Hero = () => {
         >
           <a href="#contact">
             <Button size="lg" icon={<ArrowRight size={20} />}>
-              Agendar Asesoría Gratis
+              {t("hero.primaryCTA")}
             </Button>
           </a>
           <a href="#features">
             <Button variant="ghost" size="lg">
-              Conocer Beneficios
+              {t("hero.secondaryCTA")}
             </Button>
           </a>
         </motion.div>
@@ -75,12 +76,12 @@ export const Hero = () => {
         >
           <div className="flex items-center gap-2">
             <CheckCircle2 size={16} className="text-sky-500" />
-            <span>+50 Empresas confían</span>
+            <span>{t("hero.proofCompanies")}</span>
           </div>
           <div className="w-1 h-1 rounded-full bg-slate-700" />
           <div className="flex items-center gap-2">
             <CheckCircle2 size={16} className="text-sky-500" />
-            <span>Soporte 24/7</span>
+            <span>{t("hero.proofSupport")}</span>
           </div>
         </motion.div>
       </div>

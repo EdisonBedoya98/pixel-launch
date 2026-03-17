@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "features": "Beneficios",
+    "pricing": "Planes",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "cta": "Cotizar Ahora"
+  },
+  "hero": {
+    "badge": "Diseño Web Premium en Colombia",
+    "titleMain": "Creamos páginas web que ",
+    "titleGradient": "venden y posicionan",
+    "description": "Diseñamos soluciones digitales a medida para hacer crecer tu negocio. Rápidas, seguras y optimizadas para Google desde el día 1.",
+    "primaryCTA": "Agendar Asesoría Gratis",
+    "secondaryCTA": "Conocer Beneficios",
+    "proofCompanies": "+50 Empresas confían",
+    "proofSupport": "Soporte 24/7"
+  },
+  "features": {
+    "titleMain": "Razones para ",
+    "titleGradient": "elegirnos",
+    "description": "Nos enfocamos en entregar proyectos con la más alta calidad técnica y de diseño, asegurando que tu inversión genere retornos reales.",
+    "items": [
+      {
+        "title": "Rendimiento Total",
+        "description": "Páginas web rápidas y seguras. Sitios optimizados que cargan en menos de 3 segundos, adaptados a celulares, tablets y computadores."
+      },
+      {
+        "title": "Soporte Constante",
+        "description": "Acompañamiento permanente. Equipo en Colombia disponible para mantenimiento y asistencia continua. Tu página nunca se detiene."
+      },
+      {
+        "title": "Precio Justo",
+        "description": "Planes transparentes en pesos colombianos. Sin letras pequeñas ni costos ocultos. Precios competitivos para empresas en Colombia."
+      },
+      {
+        "title": "Diseño Estratégico",
+        "description": "Páginas que venden y posicionan. No solo creamos páginas bonitas, diseñamos estrategias digitales que generan resultados reales."
+      },
+      {
+        "title": "Atención Cercana",
+        "description": "Comunicación directa y personalizada. Te acompañamos en todo el proceso con reuniones presenciales o virtuales. Servicio local con estándares internacionales."
+      },
+      {
+        "title": "SEO Integrado",
+        "description": "Optimizadas para Google desde el día 1. Todas nuestras páginas incluyen optimización SEO para que tus clientes te encuentren fácilmente."
+      }
+    ]
+  },
+  "pricing": {
+    "titleMain": "Planes ",
+    "titleGradient": "Transparentes",
+    "description": "Precios en pesos colombianos, sin letras pequeñas ni costos ocultos. Encuentra el plan perfecto para la etapa actual de tu negocio.",
+    "badgePopular": "Más Popular",
+    "currency": "COP",
+    "ctaPrimary": "Solicitar Plan",
+    "whatsappText": "Hola Pixel Launch, estoy interesado en el plan",
+    "plans": [
+      {
+        "name": "Web Start",
+        "description": "Ideal para emprendedores y pequeños negocios que buscan presencia digital profesional.",
+        "price": "$ 1.290.000",
+        "oldPrice": "$ 1.790.000 Cop",
+        "popular": false,
+        "features": [
+          "Hasta 5 páginas únicas",
+          "2 revisiones de diseño",
+          "Dominio .com y hosting por 1 año",
+          "Certificado SSL (https)",
+          "Diseño 100% responsive",
+          "Capacitación personalizada",
+          "Integración con WhatsApp",
+          "Optimización básica SEO",
+          "Entrega en 7 días hábiles",
+          "Soporte técnico 30 días gratis"
+        ]
+      },
+      {
+        "name": "Web Grow",
+        "description": "Pensado para empresas en crecimiento que necesitan destacar y vender online con fuerza.",
+        "price": "$ 1.690.000",
+        "oldPrice": "$ 2.190.000 Cop",
+        "popular": true,
+        "features": [
+          "Todo lo del Plan Start, más:",
+          "Hasta 7 páginas adicionales",
+          "3 revisiones de diseño",
+          "Tienda online básica (e-commerce)",
+          "Pasarela de pagos en línea",
+          "Optimización SEO avanzada",
+          "Módulo de testimonios",
+          "Velocidad optimizada (< 3s)",
+          "Entrega en 10 días hábiles",
+          "Soporte técnico 60 días gratis"
+        ]
+      },
+      {
+        "name": "Web Scale",
+        "description": "Solución corporativa completa para líderes de mercado que exigen lo mejor.",
+        "price": "$ 2.750.000",
+        "oldPrice": "$ 3.250.000 Cop",
+        "popular": false,
+        "features": [
+          "Todo lo del Plan Grow, más:",
+          "Revisiones ilimitadas",
+          "SEO completo (on-page y técnico)",
+          "Sistema de citas y reservas",
+          "Correos empresariales profesionales",
+          "Seguridad avanzada",
+          "Diseño 100% personalizado",
+          "Migración de contenido",
+          "Entrega en 20 días hábiles",
+          "Soporte técnico 90 días gratis"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "badge": "Servicios Complementarios",
+    "titleMain": "Lleva tu web al ",
+    "titleGradient": "siguiente nivel",
+    "description": "Aprovecha nuestros descuentos especiales al contratar un plan web y obtén una solución digital 360°.",
+    "items": [
+      {
+        "title": "Diseño de Logo",
+        "description": "Identidad visual profesional para tu marca. Logotipo coherente con la identidad de tu empresa.",
+        "pricing": "Desde: $ 450.000 COP con plan web",
+        "oldPricing": "Normal: $ 850.000 COP"
+      },
+      {
+        "title": "Textos Web y SEO",
+        "description": "Contenido optimizado para Google. Redacción profesional y estratégica para atraer clientes desde buscadores.",
+        "pricing": "GRATIS con Plan Grow o Scale",
+        "oldPricing": "Desde: $ 250.000 COP"
+      },
+      {
+        "title": "Web Hosting Premium",
+        "description": "Alojamiento en servidores 99% Uptime. Hosting rápido, seguro y estable con soporte en español.",
+        "pricing": "GRATIS el primer año con cualquier plan",
+        "oldPricing": "Desde: $ 300.000 COP"
+      },
+      {
+        "title": "Gestión de Redes Sociales",
+        "description": "Impulsa tu presencia digital. Perfiles optimizados y contenido visual que conecta con tu audiencia.",
+        "pricing": "Descuento especial para clientes web",
+        "oldPricing": "Desde: $ 350.000 COP/Mes"
+      }
+    ]
+  },
+  "testimonials": {
+    "titleMain": "Lo que dicen ",
+    "titleGradient": "nuestros clientes",
+    "description": "Basado en las excelentes reseñas de quienes ya han confiado en nuestro trabajo para impulsar sus negocios.",
+    "items": [
+      {
+        "name": "Joshua De Abreu",
+        "role": "Cliente Web Trading",
+        "content": "Sinceramente superó mis expectativas. Desde el diseño hasta la estructura, todo está pensado. La página es rápida, profesional y muy intuitiva. Respondieron mis dudas rápidamente.",
+        "rating": 5
+      },
+      {
+        "name": "Angela Correa",
+        "role": "Decortinas e interiores",
+        "content": "Excelente servicio!!! El asesoramiento es muy eficiente, son muy cumplidos y correctos con los tiempos de entrega!!! Tienen mucho conocimiento sobre diseño web. Los recomiendo 100%.",
+        "rating": 5
+      },
+      {
+        "name": "Andrey Grass",
+        "role": "Cliente Corporativo",
+        "content": "Antonio es excelente, muy profesional y su trabajo es impecable. Lo contraté sin conocerlo por internet y salió mucho mejor que todos los que conocía 🙏🏼. Recomendado al 1000%.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "titleMain": "¿Listo para tu nueva ",
+    "titleGradient": "página web?",
+    "description": "Conversemos sobre tu proyecto. Te invitamos a una asesoría gratuita donde conoceremos tu idea y te guiaremos paso a paso.",
+    "primaryCTA": "Agendar Llamada Gratis",
+    "secondaryCTA": "Enviar Correo",
+    "whatsappText": "Hola Pixel Launch, quisiera agendar una reunión",
+    "perk1": "Respuesta en < 24 horas",
+    "perk2": "Asesoría 100% gratuita",
+    "perk3": "Sin compromisos"
+  },
+  "footer": {
+    "description": "Creamos páginas web en Colombia que venden, posicionan y hacen crecer tu negocio con estándares internacionales.",
+    "servicesTitle": "Servicios",
+    "servicesItems": [
+      "Diseño Web a Medida",
+      "Tiendas Online",
+      "Optimización SEO",
+      "Identidad Visual"
+    ],
+    "contactTitle": "Contacto",
+    "location": "📍 Colombia",
+    "copyright": "© {{year}} Pixel Launch. Todos los derechos reservados.",
+    "privacy": "Políticas de Privacidad",
+    "terms": "Términos y Condiciones"
+  }
+}
