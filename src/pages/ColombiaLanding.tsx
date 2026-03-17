@@ -1,13 +1,13 @@
-import { Navbar } from "./components/layout/Navbar";
-import { Footer } from "./components/layout/Footer";
-import { Hero } from "./components/sections/Hero";
-import { Features } from "./components/sections/Features";
-import { Pricing } from "./components/sections/Pricing";
-import { Services } from "./components/sections/Services";
-import { Testimonials } from "./components/sections/Testimonials";
-import { ContactCTA } from "./components/sections/ContactCTA";
+import { Navbar } from "../components/layout/Navbar";
+import { Footer } from "../components/layout/Footer";
+import { Hero } from "../components/sections/Hero";
+import { Features } from "../components/sections/Features";
+import { Pricing } from "../components/sections/Pricing";
+import { Services } from "../components/sections/Services";
+import { Testimonials } from "../components/sections/Testimonials";
+import { ContactCTA } from "../components/sections/ContactCTA";
 
-function App() {
+export default function ColombiaLanding() {
   return (
     <div className="min-h-screen bg-slate-950 font-sans selection:bg-sky-500/30">
       <Navbar />
@@ -33,5 +33,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
