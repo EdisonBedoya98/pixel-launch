@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import "./index.css";
 
 // Componentes y Páginas
@@ -10,15 +11,17 @@ import Landing from "./pages/Landing.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        {/* Ruta principal: este es el Gateway que detectará el país y redirigirá */}
-        <Route path="/" element={<GeoRouter />} />
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          {/* Ruta principal: este es el Gateway que detectará el país y redirigirá */}
+          <Route path="/" element={<GeoRouter />} />
 
-        {/* Rutas finales para cada idioma/país */}
-        <Route path="/es" element={<Landing lang="es" />} />
-        <Route path="/en" element={<Landing lang="en" />} />
-      </Routes>
-    </BrowserRouter>
+          {/* Rutas finales para cada idioma/país */}
+          <Route path="/es" element={<Landing lang="es" />} />
+          <Route path="/en" element={<Landing lang="en" />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 );

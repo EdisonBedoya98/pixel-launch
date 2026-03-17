@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import { Navbar } from "../components/layout/Navbar";
 import { Footer } from "../components/layout/Footer";
 import { Hero } from "../components/sections/Hero";
@@ -10,7 +11,7 @@ import { Testimonials } from "../components/sections/Testimonials";
 import { ContactCTA } from "../components/sections/ContactCTA";
 
 export default function Landing({ lang }: { lang: "en" | "es" }) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     i18n.changeLanguage(lang);
@@ -18,6 +19,18 @@ export default function Landing({ lang }: { lang: "en" | "es" }) {
 
   return (
     <div className="min-h-screen bg-slate-950 font-sans selection:bg-sky-500/30">
+      <Helmet>
+        <html lang={lang} />
+        <title>{t("seo.title")}</title>
+        <meta name="description" content={t("seo.description")} />
+        <meta property="og:title" content={t("seo.title")} />
+        <meta property="og:description" content={t("seo.description")} />
+        <meta
+          property="og:locale"
+          content={lang === "es" ? "es_CO" : "en_US"}
+        />
+      </Helmet>
+
       <Navbar />
 
       <main>
