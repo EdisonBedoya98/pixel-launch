@@ -15,9 +15,9 @@ createRoot(document.getElementById("root")!).render(
         {/* Ruta principal: este es el Gateway que detectará el país y redirigirá */}
         <Route path="/" element={<GeoRouter />} />
 
-        {/* Rutas finales para cada país */}
-        <Route path="/co" element={<ColombiaLanding />} />
-        <Route path="/us" element={<USALanding />} />
+        {/* Rutas finales para cada idioma/país */}
+        <Route path="/es" element={<ColombiaLanding />} />
+        <Route path="/en" element={<USALanding />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

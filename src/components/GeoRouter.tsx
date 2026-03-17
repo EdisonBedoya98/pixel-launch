@@ -19,19 +19,19 @@ export function GeoRouter() {
 
         if (data.country_code === "US") {
           // Si está en Estados Unidos, lo mandamos a la landing en inglés
-          navigate("/us", { replace: true });
+          navigate("/en", { replace: true });
         } else {
           // Si está en Colombia (CO) o resto del mundo, landing normal en español
-          navigate("/co", { replace: true });
+          navigate("/es", { replace: true });
         }
       })
       .catch((err) => {
         console.error(
-          "Error detectando ubicación, cargando default (CO):",
+          "Error detectando ubicación, cargando default (ES):",
           err,
         );
         // En caso de que falle la detección (ej. bloqueadores de red), mandamos la principal
-        navigate("/co", { replace: true });
+        navigate("/es", { replace: true });
       })
       .finally(() => {
         setLoading(false);
