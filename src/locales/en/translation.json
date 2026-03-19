@@ -28,15 +28,15 @@
     "description": "A certified developer with international experience and a marketing strategist focused on business growth. You get both, working together on your project.",
     "edison": {
       "role": "Full-Stack Developer & Web Designer",
-      "bio1": "Systems Engineer from Universidad de Antioquia, currently collaborating with a technology company based in New York. Certified in React, Next.js and Blockchain development, with 500+ professional connections and a track record of delivering high-performance websites for businesses across Latin America and the United States.",
-      "bio2": "Bilingual in English and Spanish, I build websites that load fast, rank on Google and look professional on any device. Your project gets the same technical standards applied in international markets.",
-      "skills": ["React", "Next.js", "Web Design", "SEO", "SaaS", "Blockchain"]
+      "bio1": "I have delivered 50+ websites for businesses in Colombia and the United States. Every project loads in under 3 seconds, is optimized for Google and is designed to convert visitors into customers.",
+      "bio2": "I also collaborate with a technology company in New York. Your project gets the same technical standards applied there.",
+      "skills": ["React", "Next.js", "SEO", "E-commerce", "SaaS", "Blockchain"]
     },
     "emanuel": {
       "role": "Digital Marketing Strategist",
-      "bio1": "Specialized in understanding how businesses grow through digital presence. I analyze your market, study your competition and identify exactly what your potential customers are searching for online before recommending anything.",
-      "bio2": "I have helped companies across different industries recognize the real value of a professional website: more people finding you on Google, more qualified leads contacting you and more sales closing every month.",
-      "skills": ["Digital Marketing", "SEO Strategy", "Lead Generation", "Brand Positioning", "Content Strategy", "Market Research"]
+      "bio1": "Before designing your website, I study your market, analyze your competition and find out exactly what your customers are searching for on Google. That way we do not just build something beautiful, we build something that sells.",
+      "bio2": "Companies that have followed this strategy now receive more organic traffic, more qualified leads and close more sales every month.",
+      "skills": ["Digital Marketing", "SEO Strategy", "Lead Generation", "Brand Positioning", "Market Research"]
     }
   },
   "features": {

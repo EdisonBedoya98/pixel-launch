@@ -28,15 +28,15 @@
     "description": "Un desarrollador certificado con experiencia internacional y un estratega enfocado en el crecimiento de negocios. Los dos trabajando juntos en tu proyecto.",
     "edison": {
       "role": "Desarrollador Full-Stack & Diseñador Web",
-      "bio1": "Ingeniero de Sistemas de la Universidad de Antioquia, actualmente colaborando con una empresa tecnológica en Nueva York. Certificado en React, Next.js y desarrollo Blockchain, con más de 500 conexiones profesionales y un historial de entregas de sitios web de alto rendimiento para empresas en Latinoamérica y Estados Unidos.",
-      "bio2": "Bilingüe en español e inglés, construyo páginas que cargan rápido, posicionan en Google y se ven profesionales en cualquier dispositivo. Tu proyecto recibe los mismos estándares técnicos que se aplican en mercados internacionales.",
-      "skills": ["React", "Next.js", "Diseño Web", "SEO", "SaaS", "Blockchain"]
+      "bio1": "He entregado +50 sitios web para empresas en Colombia y Estados Unidos. Cada proyecto carga en menos de 3 segundos, está optimizado para Google y está diseñado para convertir visitantes en clientes.",
+      "bio2": "Actualmente también colaboro con una empresa tecnológica en Nueva York. Tu proyecto recibe los mismos estándares técnicos que se aplican allá.",
+      "skills": ["React", "Next.js", "SEO", "E-commerce", "SaaS", "Blockchain"]
     },
     "emanuel": {
       "role": "Estratega de Marketing Digital",
-      "bio1": "Especializado en entender cómo los negocios crecen a través de la presencia digital. Analizo tu mercado, estudio tu competencia e identifico exactamente qué están buscando tus clientes potenciales en internet antes de recomendar cualquier cosa.",
-      "bio2": "He ayudado a empresas de distintas industrias a entender el valor real de tener una página web profesional: más personas encontrándote en Google, más contactos calificados llegando a ti y más ventas cerrando cada mes.",
-      "skills": ["Marketing Digital", "Estrategia SEO", "Generación de Leads", "Posicionamiento de Marca", "Estrategia de Contenido", "Investigación de Mercado"]
+      "bio1": "Antes de diseñar tu página, estudio tu mercado, analizo tu competencia y descubro exactamente qué buscan tus clientes en Google. Así no construimos algo bonito, construimos algo que vende.",
+      "bio2": "Empresas que han seguido esta estrategia hoy reciben más visitas orgánicas, más contactos calificados y cierran más ventas cada mes.",
+      "skills": ["Marketing Digital", "Estrategia SEO", "Generación de Leads", "Posicionamiento de Marca", "Investigación de Mercado"]
     }
   },
   "features": {
