@@ -3,10 +3,10 @@ import { useTranslation } from "react-i18next";
 import {
   Zap,
   HeadphonesIcon,
-  BadgePercent,
   LayoutTemplate,
   MessageCircleHeart,
   Search,
+  Bot,
 } from "lucide-react";
 
 export const Features = () => {
@@ -19,10 +19,10 @@ export const Features = () => {
   const icons = [
     <Zap size={24} className="text-amber-400" />,
     <HeadphonesIcon size={24} className="text-sky-400" />,
-    <BadgePercent size={24} className="text-emerald-400" />,
     <LayoutTemplate size={24} className="text-violet-400" />,
     <MessageCircleHeart size={24} className="text-rose-400" />,
     <Search size={24} className="text-blue-400" />,
+    <Bot size={24} className="text-teal-400" />,
   ];
 
   return (

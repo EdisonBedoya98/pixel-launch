@@ -9,6 +9,7 @@ import { Pricing } from "../components/sections/Pricing";
 import { Services } from "../components/sections/Services";
 import { Testimonials } from "../components/sections/Testimonials";
 import { ContactCTA } from "../components/sections/ContactCTA";
+import { About } from "../components/sections/About";
 
 export default function Landing({ lang }: { lang: "en" | "es" }) {
   const { t, i18n } = useTranslation();
@@ -42,8 +43,9 @@ export default function Landing({ lang }: { lang: "en" | "es" }) {
           <div className="absolute bottom-1/4 right-0 w-1/2 h-1/2 bg-violet-900/10 blur-[150px] -z-10 rounded-full" />
 
           <Features />
-          <Pricing />
           <Services />
+          <Pricing />
+          <About />
           <Testimonials />
         </div>
 

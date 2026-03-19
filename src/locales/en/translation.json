@@ -4,6 +4,7 @@
     "description": "We build fast, secure websites and e-commerce stores optimized for Google. Let's scale your business with international quality standards."
   },
   "nav": {
+    "about": "About",
     "features": "Benefits",
     "pricing": "Pricing",
     "services": "Services",
@@ -20,6 +21,24 @@
     "proofCompanies": "50+ Trusted Businesses",
     "proofSupport": "24/7 Support"
   },
+  "about": {
+    "badge": "The Team Behind Pixel Launch",
+    "titleMain": "Real experts, ",
+    "titleGradient": "real results",
+    "description": "A certified developer with international experience and a marketing strategist focused on business growth. You get both, working together on your project.",
+    "edison": {
+      "role": "Full-Stack Developer & Web Designer",
+      "bio1": "Systems Engineer from Universidad de Antioquia, currently collaborating with a technology company based in New York. Certified in React, Next.js and Blockchain development, with 500+ professional connections and a track record of delivering high-performance websites for businesses across Latin America and the United States.",
+      "bio2": "Bilingual in English and Spanish, I build websites that load fast, rank on Google and look professional on any device. Your project gets the same technical standards applied in international markets.",
+      "skills": ["React", "Next.js", "Web Design", "SEO", "SaaS", "Blockchain"]
+    },
+    "emanuel": {
+      "role": "Digital Marketing Strategist",
+      "bio1": "Specialized in understanding how businesses grow through digital presence. I analyze your market, study your competition and identify exactly what your potential customers are searching for online before recommending anything.",
+      "bio2": "I have helped companies across different industries recognize the real value of a professional website: more people finding you on Google, more qualified leads contacting you and more sales closing every month.",
+      "skills": ["Digital Marketing", "SEO Strategy", "Lead Generation", "Brand Positioning", "Content Strategy", "Market Research"]
+    }
+  },
   "features": {
     "titleMain": "Reasons to ",
     "titleGradient": "choose us",
@@ -34,10 +53,6 @@
         "description": "Ongoing assistance. Dedicated team available for maintenance and continuous support. Your website never stops."
       },
       {
-        "title": "Fair Pricing",
-        "description": "Transparent plans in USD. No fine print or hidden fees. Extremely competitive prices tailored for the US market."
-      },
-      {
         "title": "Strategic Design",
         "description": "Websites that sell and rank. We don't just build pretty pages; we craft digital strategies that generate real results."
       },
@@ -48,6 +63,10 @@
       {
         "title": "Built-in SEO",
         "description": "Optimized for Google from Day 1. All our websites include solid SEO architecture so your customers find you easily."
+      },
+      {
+        "title": "Visible to AI",
+        "description": "Your website will be structured so AI tools like ChatGPT, Perplexity and Google AI recommend your business when people ask for what you offer. The next generation of search is already here."
       }
     ]
   },

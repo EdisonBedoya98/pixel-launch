@@ -4,6 +4,7 @@
     "description": "Diseño web premium y embudos de venta. Haz crecer tu negocio online con nuestros sitios rápidos, seguros y optimizados para Google."
   },
   "nav": {
+    "about": "Sobre mí",
     "features": "Beneficios",
     "pricing": "Planes",
     "services": "Servicios",
@@ -20,6 +21,24 @@
     "proofCompanies": "+50 Empresas confían",
     "proofSupport": "Soporte 24/7"
   },
+  "about": {
+    "badge": "El equipo detrás de Pixel Launch",
+    "titleMain": "Expertos reales, ",
+    "titleGradient": "resultados reales",
+    "description": "Un desarrollador certificado con experiencia internacional y un estratega enfocado en el crecimiento de negocios. Los dos trabajando juntos en tu proyecto.",
+    "edison": {
+      "role": "Desarrollador Full-Stack & Diseñador Web",
+      "bio1": "Ingeniero de Sistemas de la Universidad de Antioquia, actualmente colaborando con una empresa tecnológica en Nueva York. Certificado en React, Next.js y desarrollo Blockchain, con más de 500 conexiones profesionales y un historial de entregas de sitios web de alto rendimiento para empresas en Latinoamérica y Estados Unidos.",
+      "bio2": "Bilingüe en español e inglés, construyo páginas que cargan rápido, posicionan en Google y se ven profesionales en cualquier dispositivo. Tu proyecto recibe los mismos estándares técnicos que se aplican en mercados internacionales.",
+      "skills": ["React", "Next.js", "Diseño Web", "SEO", "SaaS", "Blockchain"]
+    },
+    "emanuel": {
+      "role": "Estratega de Marketing Digital",
+      "bio1": "Especializado en entender cómo los negocios crecen a través de la presencia digital. Analizo tu mercado, estudio tu competencia e identifico exactamente qué están buscando tus clientes potenciales en internet antes de recomendar cualquier cosa.",
+      "bio2": "He ayudado a empresas de distintas industrias a entender el valor real de tener una página web profesional: más personas encontrándote en Google, más contactos calificados llegando a ti y más ventas cerrando cada mes.",
+      "skills": ["Marketing Digital", "Estrategia SEO", "Generación de Leads", "Posicionamiento de Marca", "Estrategia de Contenido", "Investigación de Mercado"]
+    }
+  },
   "features": {
     "titleMain": "Razones para ",
     "titleGradient": "elegirnos",
@@ -34,10 +53,6 @@
         "description": "Acompañamiento permanente. Equipo en Colombia disponible para mantenimiento y asistencia continua. Tu página nunca se detiene."
       },
       {
-        "title": "Precio Justo",
-        "description": "Planes transparentes en pesos colombianos. Sin letras pequeñas ni costos ocultos. Precios competitivos para empresas en Colombia."
-      },
-      {
         "title": "Diseño Estratégico",
         "description": "Páginas que venden y posicionan. No solo creamos páginas bonitas, diseñamos estrategias digitales que generan resultados reales."
       },
@@ -48,6 +63,10 @@
       {
         "title": "SEO Integrado",
         "description": "Optimizadas para Google desde el día 1. Todas nuestras páginas incluyen optimización SEO para que tus clientes te encuentren fácilmente."
+      },
+      {
+        "title": "Visible para la IA",
+        "description": "Tu página estará estructurada para que herramientas de IA como ChatGPT, Perplexity y Google AI recomienden tu negocio cuando alguien pregunte por lo que ofreces. La próxima generación de búsqueda ya está aquí."
       }
     ]
   },

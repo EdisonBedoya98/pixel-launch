@@ -10,7 +10,7 @@ interface CardProps extends HTMLMotionProps<"div"> {
 export const Card = forwardRef<HTMLDivElement, CardProps>(
   ({ className = "", children, glow = false, ...props }, ref) => {
     return (
-      <div className="relative group">
+      <div className="relative group h-full">
         {glow && (
           <div className="absolute -inset-0.5 bg-gradient-to-r from-sky-500 to-violet-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500" />
         )}
@@ -19,7 +19,7 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className={`glass-card p-6 md:p-8 relative ${className}`}
+          className={`glass-card p-6 md:p-8 relative h-full ${className}`}
           {...props}
         >
           {children}
