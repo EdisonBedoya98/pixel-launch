@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export const Pricing = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const plansData = t("pricing.plans", { returnObjects: true }) as Array<{
     name: string;
     description: string;
@@ -82,7 +82,13 @@ export const Pricing = () => {
               </div>
 
               <a
-                href={`https://wa.me/573148793121?text=${encodeURIComponent(t("pricing.whatsappText") + " " + plan.name)}`}
+                href={
+                  i18n.language.startsWith("en")
+                    ? "https://calendly.com/edisonbedoya98/new-meeting"
+                    : `https://wa.me/573148793121?text=${encodeURIComponent(
+                        t("pricing.whatsappText") + " " + plan.name
+                      )}`
+                }
                 target="_blank"
                 rel="noreferrer"
                 className="mt-auto block"

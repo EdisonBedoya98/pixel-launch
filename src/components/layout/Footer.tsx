@@ -1,4 +1,4 @@
-import { Rocket, Instagram, Twitter, Linkedin, Mail } from "lucide-react";
+import { Rocket, Instagram, Twitter, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
@@ -72,15 +72,6 @@ export const Footer = () => {
               {t("footer.contactTitle")}
             </h4>
             <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-slate-400">
-                <Mail size={16} />
-                <a
-                  href="mailto:hola@pixellaunch.com"
-                  className="hover:text-sky-400 transition-colors"
-                >
-                  hola@pixellaunch.com
-                </a>
-              </li>
               <li className="text-slate-400">{t("footer.location")}</li>
             </ul>
           </div>

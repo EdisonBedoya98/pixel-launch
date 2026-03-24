@@ -4,7 +4,7 @@ import { Calendar, MessageSquare, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export const ContactCTA = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <section id="contact" className="py-24 relative z-10">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,7 +32,13 @@ export const ContactCTA = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
               <a
-                href={`https://wa.me/573148793121?text=${encodeURIComponent(t("contact.whatsappText"))}`}
+                href={
+                  i18n.language.startsWith("en")
+                    ? "https://calendly.com/edisonbedoya98/new-meeting"
+                    : `https://wa.me/573148793121?text=${encodeURIComponent(
+                        t("contact.whatsappText")
+                      )}`
+                }
                 target="_blank"
                 rel="noreferrer"
               >
@@ -42,16 +48,6 @@ export const ContactCTA = () => {
                   className="w-full sm:w-auto"
                 >
                   {t("contact.primaryCTA")}
-                </Button>
-              </a>
-              <a href="mailto:hola@pixellaunch.com">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  icon={<MessageSquare size={20} />}
-                  className="w-full sm:w-auto"
-                >
-                  {t("contact.secondaryCTA")}
                 </Button>
               </a>
             </div>

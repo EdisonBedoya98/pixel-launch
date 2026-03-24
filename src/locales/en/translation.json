@@ -88,11 +88,11 @@
         "features": [
           "Up to 5 unique pages",
           "2 design revisions",
-          ".com Domain & hosting for 1 year",
+          "Domain & Hosting setup",
           "SSL Certificate (HTTPS)",
           "100% responsive design",
           "Personalized training",
-          "WhatsApp integration",
+          "Lead Generation Form",
           "Basic SEO optimization",
           "Delivery in 7 business days",
           "30 days free technical support"
@@ -157,10 +157,10 @@
         "oldPricing": "From: $ 100 USD"
       },
       {
-        "title": "Premium Web Hosting",
-        "description": "Hosting on servers with 99% Uptime. Fast, secure, and stable hosting.",
-        "pricing": "FREE the first year with any plan",
-        "oldPricing": "From: $ 80 USD/yr"
+        "title": "Custom UI/UX Design",
+        "description": "Hire a professional designer to create an exclusive, modern, and conversion-focused interface tailored to your brand.",
+        "pricing": "From: $ 250 USD with a web plan",
+        "oldPricing": "Regular: $ 400 USD"
       },
       {
         "title": "Social Media Management",
@@ -199,8 +199,7 @@
     "titleMain": "Ready for your new ",
     "titleGradient": "website?",
     "description": "Let's talk about your project. We invite you to a free consultation where we'll learn about your idea and guide you step by step.",
-    "primaryCTA": "Schedule Free Call",
-    "secondaryCTA": "Send Email",
+    "primaryCTA": "Schedule with Calendly",
     "whatsappText": "Hi Pixel Launch, I'd like to schedule a meeting.",
     "perk1": "Response in < 24 hours",
     "perk2": "100% free consultation",
